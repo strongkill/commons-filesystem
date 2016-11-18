@@ -6,8 +6,8 @@ import com.qiniu.util.Auth;
 import com.qiniu.util.StringMap;
 
 public class Qiniu  extends YZTFS {
-	private static String ACCESS_KEY="PbF1_K88t7WEkhRJtyuegUTg-YicnKalu4p6kHVi";
-	private static String SECRET_KEY="kQkwX102c6pTIycQhJlJbDbu3sKKqzCNpHALH9Tj";
+	private static String ACCESS_KEY="-";
+	private static String SECRET_KEY="-";
 	private static Auth auth = Auth.create(ACCESS_KEY, SECRET_KEY);
 	private static UploadManager uploadManager = new UploadManager();
 	private static BucketManager bucketManager = null;
