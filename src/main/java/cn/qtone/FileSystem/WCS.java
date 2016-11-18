@@ -19,8 +19,8 @@ import com.chinanetcenter.api.wsbox.FileUploadCommand;
 密码：qtone123!@#
  */
 public class WCS   extends YZTFS {
-	static String ak = "14ec9b004c5419bb54722c24909388c3fd65dfc5";
-	static String sk = "8477987f627ad74a9435e5d5f2407afb81c0edc1";
+	static String ak = "-";
+	static String sk = "-";
 	static String bucketName = "yzt-album";
 	static String returnBody = "bucket=$(bucket)&key=$(key)&fname=$(fname)&fsize=$(fsize)&url=$(url)&hash=$(hash)"; // 自定义返回信息
 	public static String domainhosts = "http://113.107.112.147/yzt-album.s.wcsapi.biz.matocloud.com";
